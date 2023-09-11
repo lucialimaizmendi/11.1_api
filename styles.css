@@ -1,0 +1,33 @@
+body{
+    background-color: #ebb7a7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    background-color: #f7efe2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+h1{
+    color: #36738e;
+}
+
+button {
+    background-color: #ebb7a7;
+    border-radius: 8px;
+    border-style: none;
+    color: #f7efe2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 16px;
+}
+
+button:hover,
+button:focus {
+    background-color: #cd9d8a;
+}
